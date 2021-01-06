@@ -14,7 +14,7 @@ image_angle = direcao
 
 //se o mouse foi pressionado e esta dentro do intervalo de tiro
 if(tiro and timeout >= intervalo_tiro){
-	var t = instance_create_layer(x,y,"Tiro", obj_tiro)
+	var t = instance_create_layer(x,y,"Player", obj_tiro)
 	t.direction = direcao
 	t.image_angle = direcao
 	timeout = 0
