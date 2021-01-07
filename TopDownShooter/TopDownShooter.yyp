@@ -1,11 +1,13 @@
 {
   "resources": [
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"order":1,},
+    {"id":{"name":"obj_monster_piece","path":"objects/obj_monster_piece/obj_monster_piece.yy",},"order":3,},
     {"id":{"name":"spr_monster","path":"sprites/spr_monster/spr_monster.yy",},"order":2,},
     {"id":{"name":"spr_tiro","path":"sprites/spr_tiro/spr_tiro.yy",},"order":1,},
     {"id":{"name":"spr_concrete_floor","path":"sprites/spr_concrete_floor/spr_concrete_floor.yy",},"order":3,},
     {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_monster_leftHand","path":"sprites/spr_monster_leftHand/spr_monster_leftHand.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

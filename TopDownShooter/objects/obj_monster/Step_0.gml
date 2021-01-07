@@ -1,18 +1,29 @@
-/*
 if(instance_exists(obj_player)){
-	var dir= point_direction(x,y, obj_player.x, obj_player.y)
-	direction = dir
-	//another way to correct the angle when a sprite is drawed up/down
-	//instead left/right
-	image_angle = dir+90
+//moster start to follow player
+	distance = point_distance(x,y,obj_player.x, obj_player.y)
+	if(distance <= visao){
+		seguindo = true
+		var dir= point_direction(x,y, obj_player.x, obj_player.y)
+		direction = dir
+	} else{
+		//monster start to walk randomly
+		if(seguindo){
+			seguindo = false
+			direction = random(360)	
+		}
+		if(x >= room_width-20 or x <= 0){
+			hspeed*=-1	
+		}
+		if(y >= room_height-20 or y <= 0){
+			vspeed*=-1
+		}
+	}
 }
-*/
 
-if(x >= room_width-20 or x <= 0){
-	hspeed*=-1	
-}
-if(y >= room_height-20 or y <= 0){
-	vspeed*=-1
+var tiro = instance_place(x,y,obj_tiro);
+if(tiro){
+	instance_destroy()
+	instance_destroy(tiro)
 }
 
 image_angle = direction+90
