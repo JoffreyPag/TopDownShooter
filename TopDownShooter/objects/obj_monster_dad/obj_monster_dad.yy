@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_monster",
-    "path": "sprites/spr_monster/spr_monster.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/Monsters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_monster",
+  "name": "obj_monster_dad",
   "tags": [],
   "resourceType": "GMObject",
 }

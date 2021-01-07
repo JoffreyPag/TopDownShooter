@@ -1,14 +1,19 @@
 {
   "resources": [
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},"order":1,},
+    {"id":{"name":"spr_monsterDead","path":"sprites/spr_monsterDead/spr_monsterDead.yy",},"order":5,},
     {"id":{"name":"obj_monster_piece","path":"objects/obj_monster_piece/obj_monster_piece.yy",},"order":3,},
     {"id":{"name":"spr_monster","path":"sprites/spr_monster/spr_monster.yy",},"order":2,},
     {"id":{"name":"spr_tiro","path":"sprites/spr_tiro/spr_tiro.yy",},"order":1,},
+    {"id":{"name":"obj_monster_generic","path":"objects/obj_monster_generic/obj_monster_generic.yy",},"order":1,},
     {"id":{"name":"spr_concrete_floor","path":"sprites/spr_concrete_floor/spr_concrete_floor.yy",},"order":3,},
-    {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"order":2,},
+    {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_restos","path":"objects/obj_restos/obj_restos.yy",},"order":4,},
+    {"id":{"name":"obj_treme","path":"objects/obj_treme/obj_treme.yy",},"order":0,},
     {"id":{"name":"spr_monster_leftHand","path":"sprites/spr_monster_leftHand/spr_monster_leftHand.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_monster_dad","path":"objects/obj_monster_dad/obj_monster_dad.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -42,6 +47,9 @@
     {"folderPath":"folders/Animation Curves.yy","order":11,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":12,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":13,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Monsters.yy","order":1,"resourceVersion":"1.0","name":"Monsters","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Player.yy","order":0,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Etc.yy","order":2,"resourceVersion":"1.0","name":"Etc","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
