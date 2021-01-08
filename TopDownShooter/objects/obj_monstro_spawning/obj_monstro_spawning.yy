@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_monster_leftHand",
-    "path": "sprites/spr_monster_leftHand/spr_monster_leftHand.yy",
+    "name": "spr_monster",
+    "path": "sprites/spr_monster/spr_monster.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_monster_piece","path":"objects/obj_monster_piece/obj_monster_piece.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_monster_piece","path":"objects/obj_monster_piece/obj_monster_piece.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_monstro_spawning","path":"objects/obj_monstro_spawning/obj_monstro_spawning.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_monstro_spawning","path":"objects/obj_monstro_spawning/obj_monstro_spawning.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Monsters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_monster_piece",
+  "name": "obj_monstro_spawning",
   "tags": [],
   "resourceType": "GMObject",
 }
