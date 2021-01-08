@@ -2,6 +2,7 @@
 event_inherited();
 contador ++
 
+//spawna os filhos
 if(contador == 20){
 	var mon = instance_create_layer(x,y, "Monster", obj_monstro_spawning)
 	mon.direction = direction+130
@@ -14,6 +15,6 @@ if(contador == 20){
 }else if(contador == 80){
 	var mon = instance_create_layer(x,y, "Monster", obj_monstro_spawning)
 	mon.direction = direction+230
-}else if(contador >= 200){
+}else if(contador >= room_speed*spawn_timeout){
 	contador = 0	
 }

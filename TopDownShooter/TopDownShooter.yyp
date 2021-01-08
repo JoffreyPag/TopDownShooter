@@ -8,6 +8,7 @@
     {"id":{"name":"obj_monster_generic","path":"objects/obj_monster_generic/obj_monster_generic.yy",},"order":0,},
     {"id":{"name":"spr_monster_dad","path":"sprites/spr_monster_dad/spr_monster_dad.yy",},"order":6,},
     {"id":{"name":"spr_concrete_floor","path":"sprites/spr_concrete_floor/spr_concrete_floor.yy",},"order":3,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":1,},
     {"id":{"name":"obj_monster_children","path":"objects/obj_monster_children/obj_monster_children.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_restos","path":"objects/obj_restos/obj_restos.yy",},"order":4,},

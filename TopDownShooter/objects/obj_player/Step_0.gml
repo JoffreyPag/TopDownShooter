@@ -1,5 +1,6 @@
 /// @description funionalidades principais do jogador
 if(keyboard_check(ord("R"))){game_restart()}
+if(keyboard_check(ord("Q"))){game_end()}
 
 var dir = point_direction(x,y, mouse_x, mouse_y)
 
@@ -38,7 +39,7 @@ if(tocou){
 		speed = 1
 		knockback = true
 		//perde vida e verificar se vai morrer
-		if(--life <= 0)	game_end();
+		if(--life <= 0)	game_restart();
 	}
 }
 

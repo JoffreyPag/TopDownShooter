@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-life = 4
+life = 6
 invencible = false
 knockback = false
 cooldown_invencible = 0

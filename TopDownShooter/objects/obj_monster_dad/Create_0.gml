@@ -4,4 +4,4 @@ event_inherited()
 vida = 20
 follower = false
 contador = 0
-alarm[0] = room_speed * 2
+spawn_timeout = 5
