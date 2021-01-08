@@ -3,4 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
+follower = true
+vida = 1

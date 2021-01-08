@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_monster_children","path":"objects/obj_monster_children/obj_monster_children.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Monsters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_monster",
+  "name": "obj_monster_children",
   "tags": [],
   "resourceType": "GMObject",
 }

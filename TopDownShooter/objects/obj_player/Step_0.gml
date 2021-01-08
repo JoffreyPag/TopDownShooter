@@ -1,4 +1,5 @@
 /// @description funionalidades principais do jogador
+if(keyboard_check(ord("R"))){game_restart()}
 
 var cima = keyboard_check(ord("W"))
 var baixo = keyboard_check(ord("S"))
