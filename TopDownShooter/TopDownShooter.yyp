@@ -18,6 +18,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_monster_particle_dad","path":"objects/obj_monster_particle_dad/obj_monster_particle_dad.yy",},"order":6,},
     {"id":{"name":"spr_particle_dad","path":"sprites/spr_particle_dad/spr_particle_dad.yy",},"order":7,},
+    {"id":{"name":"spr_second_floor","path":"sprites/spr_second_floor/spr_second_floor.yy",},"order":8,},
     {"id":{"name":"obj_monster_dad","path":"objects/obj_monster_dad/obj_monster_dad.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
